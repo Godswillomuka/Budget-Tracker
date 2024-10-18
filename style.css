@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+#user-display {
+    display: none;
+}
+
+#welcome-message {
+    display: none;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+#user-info {
+    margin-top: 30px; 
+    padding: 20px; 
+    background-color: #ffffff; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    width: 300px; 
+}
+
+.form-group {
+    margin-bottom: 5px; 
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 200px; 
+    padding: 5px; 
+    margin-bottom: 5px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    font-size: 14px; 
+}
+
+.amount-currency {
+    display: flex; 
+    align-items: center; 
+}
+
+#amount {
+    width: 120px; 
+}
+
+#currency {
+    width: 80px; 
+}
+
+#total-amount {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 16px; 
+    color: #28a745; 
+    border-top: 2px solid #ccc; 
+    padding-top: 10px; 
+    text-align: right; 
+    background-color: #f9f9f9; 
+    border-radius: 5px; 
+}
+
+button {
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    padding: 8px 12px; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    width: auto; 
+    margin-top: 10px; 
+    font-size: 14px; 
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; 
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    text-align: left; 
+}
+
+th {
+    background-color: #007bff; 
+    color: white; 
+}

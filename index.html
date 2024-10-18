@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Tracker</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>BUDGET TRACKER</h1>
+        <div>
+            <p>A PAGE TO TRACK AND UPDATE YOUR FINANCE RECORDS</p>
+        </div>
+    </header>
+
+    <section id="user-info">
+        <h2>Enter Your Info</h2>
+        <input type="text" id="name" placeholder="Enter your name">
+        <input type="number" id="age" placeholder="Enter your age">
+        <button id="submit-user">CLICK ME</button>
+    </section>
+
+    <div id="user-display">
+        <h2 id="welcome-message"></h2>
+    </div>
+
+    <section>
+        <h2>Add a Record</h2>
+        <form id="expense-form">
+            <div class="form-group">
+                <label for="description">Description:</label>
+                <input type="text" id="description" required>
+            </div>
+            <div class="form-group">
+                <label for="amount">Amount:</label>
+                <div class="amount-currency">
+                    <input type="number" id="amount" required>
+                    <select id="currency" required>
+                        <option value="USD">USD</option>
+                        <option value="EUR">EUR</option>
+                        <option value="GBP">GBP</option>
+                        <option value="JPY">JPY</option>
+                        <option value="AUD">AUD</option>
+                        <option value="KSH">KSH</option> 
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="category">Category:</label>
+                <select id="category" required>
+                    <option value="Groceries">Groceries</option>
+                    <option value="Rent">Rent</option>
+                    <option value="Utilities">Utilities</option>
+                    <option value="Transportation">Transportation</option>
+                    <option value="Entertainment">Entertainment</option>
+                    <option value="Food">Food</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="payment-method">Payment Method:</label>
+                <select id="payment-method" required>
+                    <option value="Card">Card</option>
+                    <option value="Cash">Cash</option>
+                    <option value="M-Pesa">M-Pesa</option>
+                </select>
+            </div>
+            <button type="submit">ADD RECORD</button>
+        </form>
+    </section>
+
+    <table id="expense-table" style="display:none;">
+        <thead>
+            <tr>
+                <th>Description</th>
+                <th>Amount</th>
+                <th>Category</th>
+                <th>Payment Method</th>
+                <th>Date</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+        </tbody>
+    </table>
+
+    <div id="total-amount">Total Amount: KSH 0.00</div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
