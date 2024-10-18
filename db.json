@@ -1,114 +1,102 @@
 {
-  "userRecords": {
-      "Alice": {
-          "age": 28,
-          "expenses": [
-              {
-                  "description": "Groceries",
-                  "amount": 50,
-                  "currency": "USD",
-                  "category": "Groceries",
-                  "paymentMethod": "Card",
-                  "date": "10/17/2024"
-              },
-              {
-                  "description": "Rent",
-                  "amount": 1200,
-                  "currency": "USD",
-                  "category": "Rent",
-                  "paymentMethod": "Bank Transfer",
-                  "date": "10/01/2024"
-              }
-          ]
-      },
-      "Bob": {
-          "age": 34,
-          "expenses": [
-              {
-                  "description": "Utility Bill",
-                  "amount": 75,
-                  "currency": "EUR",
-                  "category": "Utilities",
-                  "paymentMethod": "Cash",
-                  "date": "10/05/2024"
-              },
-              {
-                  "description": "Dinner",
-                  "amount": 30,
-                  "currency": "GBP",
-                  "category": "Food",
-                  "paymentMethod": "Card",
-                  "date": "10/10/2024"
-              }
-          ]
-      },
-      "Charlie": {
-          "age": 22,
-          "expenses": [
-              {
-                  "description": "Bus Ticket",
-                  "amount": 15,
-                  "currency": "KSH",
-                  "category": "Transportation",
-                  "paymentMethod": "Cash",
-                  "date": "10/15/2024"
-              },
-              {
-                  "description": "Fuel",
-                  "amount": 1000,
-                  "currency": "KSH",
-                  "category": "Transportation",
-                  "paymentMethod": "M-Pesa",
-                  "date": "10/12/2024"
-              }
-          ]
-      },
-      "Diana": {
-          "age": 29,
-          "expenses": [
-              {
-                  "description": "Internet Bill",
-                  "amount": 40,
-                  "currency": "USD",
-                  "category": "Utilities",
-                  "paymentMethod": "Credit Card",
-                  "date": "10/13/2024"
-              }
-          ]
-      },
-      "Ethan": {
-          "age": 31,
-          "expenses": [
-              {
-                  "description": "Movie Tickets",
-                  "amount": 20,
-                  "currency": "GBP",
-                  "category": "Entertainment",
-                  "paymentMethod": "Cash",
-                  "date": "10/14/2024"
-              },
-              {
-                  "description": "Concert",
-                  "amount": 150,
-                  "currency": "USD",
-                  "category": "Entertainment",
-                  "paymentMethod": "Credit Card",
-                  "date": "10/16/2024"
-              }
-          ]
-      },
-      "Fiona": {
-          "age": 26,
-          "expenses": [
-              {
-                  "description": "Taxi Fare",
-                  "amount": 10,
-                  "currency": "EUR",
-                  "category": "Transportation",
-                  "paymentMethod": "Cash",
-                  "date": "10/11/2024"
-              }
-          ]
-      }
-  }
+    "userRecords": {
+        "Alice": {
+            "dob": "17-10-1996",
+            "expenses": [
+                {
+                    "description": "Groceries",
+                    "amount": 50,
+                    "currency": "USD",
+                    "category": "Groceries",
+                    "paymentMethod": "Card",
+                    "date": "10/17/2024"
+                },
+                {
+                    "description": "Rent",
+                    "amount": 1200,
+                    "currency": "USD",
+                    "category": "Rent",
+                    "paymentMethod": "Bank Transfer",
+                    "date": "10/01/2024"
+                }
+            ]
+        },
+        "Bob": {
+            "dob": "22-05-1989",
+            "expenses": [
+                {
+                    "description": "Groceries",
+                    "amount": 100,
+                    "currency": "USD",
+                    "category": "Groceries",
+                    "paymentMethod": "Card",
+                    "date": "10/15/2024"
+                },
+                {
+                    "description": "Electric Bill",
+                    "amount": 60,
+                    "currency": "USD",
+                    "category": "Utilities",
+                    "paymentMethod": "Cash",
+                    "date": "10/01/2024"
+                }
+            ]
+        },
+        "Charlie": {
+            "dob": "01-01-2000",
+            "expenses": [
+                {
+                    "description": "Concert Tickets",
+                    "amount": 100,
+                    "currency": "GBP",
+                    "category": "Entertainment",
+                    "paymentMethod": "Cash",
+                    "date": "10/10/2024"
+                }
+            ]
+        },
+        "Diana": {
+            "dob": "15-07-1995",
+            "expenses": [
+                {
+                    "description": "Utility Bill",
+                    "amount": 75,
+                    "currency": "EUR",
+                    "category": "Utilities",
+                    "paymentMethod": "Cash",
+                    "date": "10/05/2024"
+                }
+            ]
+        },
+        "Ethan": {
+            "dob": "30-12-1985",
+            "expenses": [
+                {
+                    "description": "Dinner",
+                    "amount": 50,
+                    "currency": "USD",
+                    "category": "Food",
+                    "paymentMethod": "Card",
+                    "date": "10/10/2024"
+                }
+            ]
+        },
+        "Fiona": {
+            "dob": "25-03-1992",
+            "expenses": []
+        },
+        "George": {
+            "dob": "11-11-1980",
+            "expenses": [
+                {
+                    "description": "Gym Membership",
+                    "amount": 30,
+                    "currency": "USD",
+                    "category": "Health",
+                    "paymentMethod": "Cash",
+                    "date": "10/12/2024"
+                }
+            ]
+        }
+    }
 }

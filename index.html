@@ -9,16 +9,14 @@
 <body>
     <header>
         <h1>BUDGET TRACKER</h1>
-        <div>
-            <p>A PAGE TO TRACK AND UPDATE YOUR FINANCE RECORDS</p>
-        </div>
+        <button id="toggle-mode"> Dark/Light </button>
     </header>
 
     <section id="user-info">
         <h2>Enter Your Info</h2>
         <input type="text" id="name" placeholder="Enter your name">
-        <input type="number" id="age" placeholder="Enter your age">
-        <button id="submit-user">CLICK ME</button>
+        <input type="text" id="dob" placeholder="Enter your Date of Birth (DD-MM-YYYY)">
+        <button id="submit-user"> SUBMIT INFO</button>
     </section>
 
     <div id="user-display">
@@ -42,7 +40,7 @@
                         <option value="GBP">GBP</option>
                         <option value="JPY">JPY</option>
                         <option value="AUD">AUD</option>
-                        <option value="KSH">KSH</option> 
+                        <option value="KSH">KSH</option>
                     </select>
                 </div>
             </div>
@@ -80,12 +78,11 @@
                 <th>Action</th>
             </tr>
         </thead>
-        <tbody id="table-body">
-        </tbody>
+        <tbody id="table-body"></tbody>
     </table>
 
     <div id="total-amount">Total Amount: KSH 0.00</div>
-    
+
 
     <script src="script.js"></script>
 </body>
